@@ -1,0 +1,220 @@
+body {
+    /* background-color: rgb(249, 249, 213); */
+    background-color: rgb(246, 229, 187);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+::selection {
+    color: gold;
+    background-color: brown;
+}
+
+.name {
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+    color: brown;
+    background-color: peachpuff;
+    font-family: cursive;
+    padding: 0.2%;
+    margin: 0.5% auto;
+}
+
+.list {
+    width: 50%;
+    background-color: beige;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin: 0 auto;
+    /* box-shadow: 5px 5px 10px 1px rgb(63, 63, 63); */
+}
+
+.list .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5%;
+}
+
+.list .title h2 {
+    text-align: center;
+    color: #22333b;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.list .title img {
+    width: 7%;
+    height: 7vh;
+    text-align: center;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.list .input {
+    width: 80%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: rgb(189, 49, 49);
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 4% auto;
+    padding: 2%;
+    /* opacity: 1; */
+}
+
+.list .input input {
+    width: 75%;
+    height: 4vh;
+    background-color: transparent;
+    color: bisque;
+    font-size: 23px;
+    border-radius: 15px;
+    border: 1px solid bisque;
+    outline: none;
+    padding: 2%;
+    /* opacity: 1; */
+}
+
+.list .input input::placeholder {
+    color: bisque;
+    font-family: cursive;
+}
+
+.list .input .add {
+    width: 16%;
+    height: 5vh;
+    background-color: rgb(247, 218, 181);
+    border-radius: 15px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.list .input .add:hover {
+    border: 1px solid gold;
+}
+
+.list .output {
+    width: 80%;
+    /* height: 3vh; */
+    border: 2px solid #22333b;
+    border-radius: 20px;
+    margin: 3% auto;
+    padding: 1%;
+    color: bisque;
+    font-family: cursive;
+}
+
+.list .output .input p {
+    /* width: 40%; */
+    /* padding: 1%; */
+    /* overflow: hidden; */
+    /* color: aqua; */
+}
+
+.list .input .done {
+    width: 16%;
+    height: 5vh;
+    background-color: rgb(1, 205, 1);
+    border-radius: 15px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.list .input .del {
+    width: 20%;
+    height: 5vh;
+    background-color: rgb(237, 1, 1);
+    border-radius: 15px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.list .input p {
+    width: 70%;
+    height: 4vh;
+    color: bisque;
+    font-size: 25px;
+    margin: 5%;
+}
+
+.list .done {
+    width: 65%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: #ededed;
+    border-radius: 20px;
+    margin: 4% auto;
+    padding: 2%;
+}
+
+.footer {
+    width: 30%;
+    background-color: beige;
+    border-radius: 30px;
+    border: 1px solid gold;
+    text-align: center;
+    margin: 3% auto;
+    font-family: cursive;
+}
+
+@media (max-width: 850px) {
+    .list {
+        width: 60%;
+    }
+    .footer {
+        width: 40%;
+    }
+}
+@media (max-width: 700px) {
+    .list {
+        width: 90%;
+    }
+    .footer {
+        width: 50%;
+    }
+}
+@media (max-width: 500px) {
+    .list {
+        width: 90%;
+    }
+    .list .input input {
+        font-size: 20px;
+    }
+    .footer {
+        width: 70%;
+    }
+}
+@media (max-width: 480px) {
+    .list {
+        width: 100%;
+    }
+    .list .input input {
+        font-size: 20px;
+    }
+}
+@media (max-width: 440px) {
+    .list .input {
+        width: 90%;
+    }
+    .output {
+        width: 90%;
+    }
+}
+@media (max-width: 385px) {
+    .list .input {
+        width: 94%;
+    }
+    .list .output {
+        width: 94%;
+    }
+}
