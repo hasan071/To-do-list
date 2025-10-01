@@ -56,7 +56,7 @@ body {
 
 .list .input {
     width: 80%;
-    height: 6vh;
+    /* height: 6vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@ body {
     border-radius: 20px;
     border: 1px solid black;
     margin: 4% auto;
-    padding: 2%;
+    padding: 2.7%;
     /* opacity: 1; */
 }
 
